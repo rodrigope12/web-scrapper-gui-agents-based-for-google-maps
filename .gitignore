@@ -40,3 +40,22 @@ yarn-error.log
 .vscode/
 .idea/
 *.swp
+
+
+# Security & Bloat Exclusions
+.env
+*.json
+!package.json
+!manifest.json
+!tsconfig.json
+*.pem
+*.key
+*.log
+*.zip
+*.tar
+*.gz
+node_modules/
+venv/
+target/
+dist/
+build/
