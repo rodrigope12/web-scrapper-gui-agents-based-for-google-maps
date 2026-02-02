@@ -1,0 +1,10 @@
+{
+    "feed": "//div[@role='feed']",
+    "consent_accept": "//button//span[contains(text(), 'Accept')]/..",
+    "consent_accept_aria": "//button[contains(@aria-label, 'Accept')]",
+    "card_css": "div[role='article']",
+    "card_link_css": "a",
+    "captcha_sitekey": "[data-sitekey]",
+    "captcha_submit_id": "recaptcha-demo-submit",
+    "captcha_submit_css": "input[type='submit']"
+}
